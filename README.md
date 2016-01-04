@@ -6,16 +6,17 @@
 
 Lateralus is a single page web application framework.  It is designed around the idea that UIs should be divided into discreet, reusable, loosely-coupled components.  These components should communicate only indirectly and be easily swappable or removable.  Lateralus provides patterns and utilities to cleanly isolate individual components of your app.
 
-**[Link: A simple demo app built with Lateralus](https://github.com/Jellyvision/marker)**
+## Applications built with Lateralus
 
-## Dependencies (Core framework)
+* [Marker](https://github.com/Jellyvision/marker) (academic example)
+* [Stylie](https://github.com/jeremyckahn/stylie)
+* [Mantra](https://github.com/jeremyckahn/mantra)
 
-  * RequireJS
-    * RequireJS text plugin
-  * Backbone
-    * jQuery
-    * Underscore/Lo-Dash
-  * Mustache
+## The stack
+
+Lateralus is built upon an opinionated technology stack.  Specifically, it utilizes [Backbone](http://backbonejs.org/), [jQuery](http://jquery.com/), [lodash](https://lodash.com/), [AMD modules/RequireJS](http://requirejs.com/), and [Mustache](https://github.com/janl/mustache.js/) templates.
+
+Though not strictly necessary, Lateralus apps use [Grunt](http://gruntjs.com/) and [Modernizr](https://modernizr.com/) by default.
 
 ## Getting started
 
