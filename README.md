@@ -29,33 +29,13 @@ bower install --save lateralus
 
 ### Generate the boilerplate
 
-For your convenience, Lateralus comes bundled with a Yeoman generator for quickly scaffolding apps and components from scratch.  This is particularly handy for starting a new project with Lateralus.  First, clone this repo:
+A Yeoman generator is available for quickly scaffolding Lateralus apps and components.  It is recommended that you use this when starting a new project with Lateralus.
 
-````bash
-git clone https://github.com/Jellyvision/lateralus.git
+````
+npm install -g generator-lateralus
 ````
 
-Then link up the generator:
-
-````bash
-cd lateralus/generator-lateralus
-npm link
-````
-
-The generator is now set up.  To scaffold a new Lateralus app:
-
-````bash
-mkdir -p path/to/app
-cd $_
-
-# Configure the app with the prompts.  For this example, call it "app."
-yo lateralus
-
-# Create a new component
-yo lateralus:component my-component
-````
-
-New Lateralus apps are scaffolded with a `ContainerComponent`.  It is suggested that you use this as the single parent component of your app.
+Please see [`generator-lateralus`](https://github.com/Jellyvision/generator-lateralus)'s README to learn how to use it.
 
 ### Loading the files
 
